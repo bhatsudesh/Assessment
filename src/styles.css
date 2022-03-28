@@ -1,0 +1,5 @@
+.box {
+  display: inline;
+  padding: 10px 50%;
+  border: 2px solid green;
+}
