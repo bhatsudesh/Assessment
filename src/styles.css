@@ -1,5 +1,17 @@
+.App {
+  width: 100%;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  border: 1px solid green;
+}
+
 .box {
-  display: inline;
-  padding: 10px 50%;
+  flex-grow: 1;
   border: 2px solid green;
+}
+
+.box:first-child {
+  flex-grow: 2;
 }
